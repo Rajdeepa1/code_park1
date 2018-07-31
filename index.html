@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Profile page</title>
+	  <style>
+	  .image{
+	  background-image:url("https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif");
+	  }
+	  </style>
+   </head>
+	<frameset rows="90,*" border="0">
+	<frameset cols = "*">
+	
+      <frame src="top.html" name = "menu_page" noresize="noresize" scrolling="no" />
+      
+   </frameset>
+   <frameset cols = "250,800,*">
+       <frameset rows="200,*">
+      <frame src="img.html" name = "menu_page" scrolling="no" noresize="noresize"/>
+      <frame src="activity.html" name = "menu_page" scrolling="no" noresize="noresize" />
+
+      </frameset>
+	  <frameset rows="200,*">
+      <frame  src="info.html" name = "main_page" noresize="noresize" scrolling="no" />
+      <frame src="ans.html" />
+      </frameset>
+      <frameset >
+            <frame  src="ques.html" name = "main_page" noresize="noresize" scrolling="no" />
+            
+            </frameset>
+      
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+   </frameset>
+   </frameset>
+	
+</html>
